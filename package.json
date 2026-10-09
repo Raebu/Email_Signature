@@ -1,0 +1,25 @@
+{
+  "name": "@raebu/email-signature",
+  "version": "1.0.0",
+  "description": "Automatic domain-aware email signatures for Resend and other mail senders.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/*.js && node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "resend",
+    "email",
+    "signature",
+    "email-signature",
+    "domain-routing"
+  ],
+  "license": "MIT"
+}
